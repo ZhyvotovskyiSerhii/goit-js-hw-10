@@ -15,7 +15,7 @@ const refs = {
 
 
 let name;
-const handleSubmit = e => {
+const handleSubmit = event => {
   name = refs.input.value.trim();
   clearInput();
   fetchCountries(name)
